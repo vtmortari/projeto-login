@@ -31,6 +31,8 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.26);
@@ -74,6 +76,7 @@ div.campo > span{
     'GRAD' 0,
     'opsz' 48
   }
+
 div.campo{
     background-color: #5f2c82;
     border: 2px solid #5f2c82;
